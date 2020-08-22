@@ -8,3 +8,15 @@ I hope you enjoy
 IMPORTANT: The IDs of the objects in the HTML file must not be exchanged, otherwise the system will not work!
 
 If you did not name the folder "vid" you have to enter the correct path in line 66 and 79.
+
+# Your rights
+You can use the player where and how you want. There are only a few conditions that you have to follow:
+1. You must not pass the player off as yours, it means:
+    1. If you give the page as your copyright, I would be glad if you mention me on the page in the copyright area
+    2. If this is not possible, please send me an e-mail to (communit@dealcraft.de)[mailto:communit@dealcraft.de] and we will discuss what can be done
+2. After changing the code, except for the exceptions I have mentioned, I do not guarantee for functionality anymore. If you are missing a feature that you think everyone will need, please send a Pull Request with this function
+3. You must not upload the files anywhere. Except for this one:
+    1. Webspace, Webhoster
+    2. Exceptions which **I** have approved
+    3. If you need an exception, please contact me at (communit@dealcraft.de)[mailto:communit@dealcraft.de]
+4. You may not change the code and pass it off as your
