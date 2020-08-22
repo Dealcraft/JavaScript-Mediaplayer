@@ -112,7 +112,7 @@ window.onload = playVideo;
     }
     btnExp.style.display = "unset";
     btnCmp.style.display = "none";
-    container.classList.remove("fullscreen";
+    container.classList.remove("fullscreen");
   }
 
   function myTime(time){
