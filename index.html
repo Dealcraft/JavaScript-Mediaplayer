@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="player.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Musicplayer</title>
+</head>
+<body>
+    <div id="bg"></div>
+    <div id="bgg"></div>
+    <div id="container">
+        <output id="header">NaN</output>
+        <video id="vid">
+            <source src="Path/to/first/video/here>">
+        </video>
+        <output id="timeOut">Zeit: 0:00/0:NaN</output>
+        <output id="vidNum">Video: 1/NaN</output>
+        <div id="playbuttons">
+            <button id="btnPlay"><i class="far fa-play-circle"></i></button>
+            <button id="btnPause"><i class="far fa-pause-circle"></i></button>
+            <button id="btnStop"><i class="far fa-stop-circle"></i></button>
+        </div>
+        <div id="nextButtons">
+            <button id="btnPrev"><i class="fas fa-backward"></i></button>
+            <button id="btnExp" onclick="openFullscreen()"><i class="fas fa-expand"></i></button>
+            <button id="btnCmp" onclick="closeFullscreen()" style="display: none;"><i class="fas fa-compress"></i></button>
+            <button id="btnNext"><i class="fas fa-forward"></i></button>
+        </div>
+    </div>
+    <p class="version">Version Beta 0.5.4</p>
+
+    <script src="player.js"></script>
+    <script src="https://kit.fontawesome.com/3d6c76b4b3.js" crossorigin="anonymous" onload="playVideo()"></script>
+</body>
+</html>
