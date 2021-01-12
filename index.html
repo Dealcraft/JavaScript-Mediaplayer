@@ -4,15 +4,16 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="player.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Musicplayer</title>
+    <title>JS Mediaplayer</title>
 </head>
 <body>
     <div id="bg"></div>
     <div id="bgg"></div>
     <div id="container">
         <output id="header">NaN</output>
+        <i class="fas fa-bars" id="nav-burger"></i>
         <video id="vid">
-            <source src="Path/to/first/video/here>">
+            <source src="">
         </video>
         <output id="timeOut">Zeit: 0:00/0:NaN</output>
         <output id="vidNum">Video: 1/NaN</output>
@@ -27,10 +28,14 @@
             <button id="btnCmp" onclick="closeFullscreen()" style="display: none;"><i class="fas fa-compress"></i></button>
             <button id="btnNext"><i class="fas fa-forward"></i></button>
         </div>
-    </div>
-    <p class="version">Version Beta 0.5.4</p>
+        <div id="nav">
 
+        </div>
+    </div>
+    <p class="version">Version 1.0</p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="player.js"></script>
-    <script src="https://kit.fontawesome.com/3d6c76b4b3.js" crossorigin="anonymous" onload="playVideo()"></script>
+    <script src="https://kit.fontawesome.com/3d6c76b4b3.js" crossorigin="anonymous"></script>
 </body>
 </html>

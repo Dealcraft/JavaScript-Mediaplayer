@@ -1,1 +1,123 @@
-/* PUT SOME STYLE HERE */
+*{
+    padding: 0;
+    margin: 0;
+    transition: all 300ms;
+}
+body{width:100%; height:100%;}
+
+p, a, h1, h2, h3, li, output{font-family: Arial, Helvetica, sans-serif;}
+
+#container{
+    min-width: 500px;
+    min-height: 100px;
+    max-width: 1000px;
+    max-height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+    /* overflow: hidden;*/
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    z-index: 100;
+  }
+
+#bg{
+    background: #ffffff;
+    filter: blur(25px);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+#bgg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: 1;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    margin: 5px 0 0 0;
+    cursor: pointer;
+}
+
+#timeOut{
+    float: left;
+}
+
+#vid{
+    position: relative;
+    left: 0;
+    top: 0;
+    min-width: 95%;
+    min-height: auto;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+#vidNum{
+    float: right;
+}
+
+#playbuttons, #nextButtons{
+    margin: 0 41%;
+}
+
+.version{
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    color: #a1a1a1;
+    font-style: italic;
+}
+
+body div#container.fullscreen{
+    min-width: unset;
+    min-height: unset;
+    max-width: unset;
+    max-height: unset;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    border-radius: 0;
+}
+
+#nav-burger{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+}
+#nav{
+    position: absolute;
+    top: 0;
+    left: 100%;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: #ffffff;
+    min-width: 200px;
+    height: 100%;
+    overflow: auto;
+    white-space: nowrap;
+}
+#nav p{
+    padding: 15px 10px;
+}
+#nav hr{
+    width: 100%;
+    background: #a5a5a593;
+    height: 1px;
+    border: none;
+}
+.highlight{
+    background: #dbdbdb;
+}
