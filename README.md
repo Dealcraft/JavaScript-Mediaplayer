@@ -19,7 +19,7 @@ You can use the player where and how you want. There are only a few conditions t
 1. You must not pass the player off as yours, it means:
     1. If you give the page as your copyright, I would be glad if you mention me on the page in the copyright area
     2. If this is not possible, please send me an e-mail to [communit@dealcraft.de](mailto:communit@dealcraft.de) and we will discuss what can be done
-2. After changing the code, except for the exceptions I have mentioned, I do not guarantee for functionality anymore. If you are missing a feature that you think everyone will need, please send a Pull Request with this function
+2. After changing the code, except for the exceptions I have mentioned, I do not guarantee for functionality anymore. If you are missing a feature that you think everyone will need, please send a Issue/Feature Request with this function
 3. You must not upload the files anywhere. Except for this one:
     1. Webspace, Webhoster
     2. Exceptions which **I** have approved
